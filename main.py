@@ -40,7 +40,7 @@ print('')
 #SUB-TOTAL#
 sub_total = 0
 for x, y in zip(quantities, prices):
-    sub_total = sub_total + (x*y)
+    sub_total = round(sub_total + (x*y), 2)
 
 #TIP#
 while True:
